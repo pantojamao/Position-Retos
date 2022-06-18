@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    display: grid;
+    place-content: center;
+
+}
+
+.title-container {
+    border-radius: 0.9rem;
+    background-color: orange;
+    font-size: 1.2rem;
+    padding: 2rem;
+    text-align: center;
+    width: 15rem;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 10rem;
+    position: relative;
+    background-image: url('https://yt3.ggpht.com/ytc/AKedOLShSbHNRgvRoS2fTgBa8uks6ZifOgMjlAp4tm45MA=s900-c-k-c0x00ffffff-no-rj');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description {
+    border-radius: 0.9rem;
+    background-color: orange;
+    font-size: 1.2rem;
+    padding: 2rem;
+    display: absolute;
+    text-align: center;
+    width: 15rem;
+    right: 0%;
+}
